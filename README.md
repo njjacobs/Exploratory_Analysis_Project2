@@ -38,7 +38,9 @@ Source Classification Code Table (Source_Classification_Code.rds): This table pr
 You can read each of the two files using the readRDS() function in R. For example, reading in each file can be done with the following code:
 
 1 ## This first line will likely take a few seconds. Be patient! 
+
 2 NEI <- readRDS("summarySCC_PM25.rds")
+
 3 SCC <- readRDS("Source Classification Code.rds")
 
 as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
