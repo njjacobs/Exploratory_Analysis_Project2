@@ -26,7 +26,7 @@ Color <- 2:(length(agg$year)+1)
 
 png("plot5.png")
 
-with(OnRoadSubset, barplot(height = Emissions, col = Color, xlab="Year", ylab="Total PM2.5", names.arg = year, main = "Total PM2.5 for Motor Vehicles in Baltimore City from 1999 to 2008"))
+with(OnRoadSubset, barplot(height = Emissions, col = Color, xlab="Year", ylab="Total PM2.5", names.arg = year, main = "Total PM2.5 for Motor Vehicles in Baltimore from 1999 to 2008"))
 
 dev.off()
 
