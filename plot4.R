@@ -29,7 +29,7 @@ png("plot4.png", width=640, height=480)
 
 graph <- ggplot(agg, aes(factor(year), Emissions, fill = year))
 
-graph <- graph + geom_bar(stat = "identity") + xlab("year") + ylab("Total PM25") +ggtitle("Total PM2.5 for Coal Emissions from 1999 to 2008")
+graph <- graph + geom_bar(stat = "identity") + xlab("year") + ylab("Total PM2.5") +ggtitle("Total PM2.5 for Coal Emissions from 1999 to 2008")
 
 print(graph)
 
