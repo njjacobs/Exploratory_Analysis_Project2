@@ -24,6 +24,6 @@ Color <- 2:(length(agg$year)+1)
 
 png("plot2.png")
 
-with(aggcity,barplot(height=Emissions,col=Color, xlab="Year",ylab="Total PM25",main = "Total PM25 in Baltimore City, Maryland by Year", names.arg = year))
+with(aggcity,barplot(height=Emissions,col=Color, xlab="Year",ylab="Total PM2.5",main = "Total PM2.5 in Baltimore City, Maryland by Year", names.arg = year))
 
 dev.off()
