@@ -18,7 +18,7 @@ agg <- aggregate(Emissions ~ year, NEI, sum)
 
 library(dplyr)
 
-aggcity <- NEI %>% filter(fips == "24510") %>% group_by(year) %>% summarise(Emissions = sum(Emissions))
+aggcity <- NEI %>% filter(fips == "24510") %>% group_by(year) %>% summarize(Emissions = sum(Emissions))
 
 Color <- 2:(length(agg$year)+1)
 
