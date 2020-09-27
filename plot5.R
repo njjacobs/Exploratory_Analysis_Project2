@@ -34,5 +34,4 @@ graph <- graph + geom_bar(stat = "identity", fill = Color) + xlab("year") + ylab
 print(graph)
 dev.off()
 
-dev.off()
 
