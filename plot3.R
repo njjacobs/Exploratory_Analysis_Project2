@@ -25,6 +25,6 @@ aggcity2 <- aggregate(Emissions ~ year+type, city, sum)
 
 png("plot3.png")
 
-ggplot(aggcity2, aes(year,Emissions,color=type))+geom_line()+ylab(expression("Total PM25"))+ggtitle("Total PM25 in Baltimore City, Maryland from 1999 to 2008 by type")
+ggplot(aggcity2, aes(year,Emissions,color=type))+geom_line()+ylab(expression("Total PM2.5"))+ggtitle("Total PM2.5 in Baltimore City, Maryland from 1999 to 2008 by type")
 
 dev.off()
